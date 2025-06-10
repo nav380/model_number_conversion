@@ -19,4 +19,4 @@ A lightweight and efficient Node.js module that converts numbers into English wo
 Install the module using npm:
 
 ```bash
-npm install number-into-words
+npm i number-into-words-nav
