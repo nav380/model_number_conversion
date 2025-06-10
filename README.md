@@ -20,3 +20,21 @@ Install the module using npm:
 
 ```bash
 npm i number-into-words-nav
+
+
+
+### 🧾 Example
+
+```js
+const { numberToWords, wordsToNumber } = require('number-into-words');
+
+// Convert a number into words
+const num = 1234567890;
+const words = numberToWords(num);
+console.log("Words:", words);
+// Output: "one billion two hundred thirty-four million five hundred sixty-seven thousand eight hundred ninety"
+
+// Convert words back into number
+const parsedNumber = wordsToNumber(words);
+console.log("Parsed Number:", parsedNumber);
+// Output: 1234567890
