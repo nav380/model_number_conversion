@@ -20,7 +20,7 @@ A lightweight and efficient Node.js module that converts numbers into English wo
 ### 🧾 Example
 
 
- const { numberToWords, wordsToNumber } = require('number-into-words');
+      const { numberToWords, wordsToNumber } = require('number-into-words');
 
 **Convert a number into words**
 
