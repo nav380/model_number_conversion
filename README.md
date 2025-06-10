@@ -14,15 +14,6 @@ A lightweight and efficient Node.js module that converts numbers into English wo
 
 ---
 
-## 📦 Installation
-
-Install the module using npm:
-
-```bash
-npm i number-into-words-nav
-
-
-
 ### 🧾 Example
 
 ```js
@@ -38,3 +29,15 @@ console.log("Words:", words);
 const parsedNumber = wordsToNumber(words);
 console.log("Parsed Number:", parsedNumber);
 // Output: 1234567890
+
+---
+
+## 📦 Installation
+
+Install the module using npm:
+
+```bash
+npm i number-into-words-nav
+
+
+
