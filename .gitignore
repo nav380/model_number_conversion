@@ -1,0 +1,34 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+env/
+venv/
+.env
+*.sqlite3
+
+# Node.js
+node_modules/
+npm-debug.log
+.env
+
+# Django
+*.log
+db.sqlite3
+/staticfiles/
+/media/
+/*.pyc
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Git
+*.orig
