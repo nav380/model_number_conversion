@@ -16,7 +16,7 @@ A lightweight and efficient Node.js module that converts numbers into English wo
 
 ### 🧾 Example
 
-```js
+
 const { numberToWords, wordsToNumber } = require('number-into-words');
 
 // Convert a number into words
@@ -28,7 +28,7 @@ console.log("Words:", words);
 // Convert words back into number
 const parsedNumber = wordsToNumber(words);
 console.log("Parsed Number:", parsedNumber);
-// Output: 1234567890  ```
+// Output: 1234567890 
 
 ---
 
