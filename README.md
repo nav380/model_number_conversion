@@ -24,21 +24,21 @@ A lightweight and efficient Node.js module that converts numbers into English wo
 
 **Convert a number into words**
 
-const num = 1234567890;
+     const num = 1234567890;
 
-const words = numberToWords(num);
+     const words = numberToWords(num);
 
-console.log("Words:", words);
+     console.log("Words:", words);
 
-Output: "one billion two hundred thirty-four million five hundred sixty-seven thousand eight hundred ninety"
+     Output: "one billion two hundred thirty-four million five hundred sixty-seven thousand eight hundred ninety"
 
  **Convert words back into number**
  
-const parsedNumber = wordsToNumber(words);
+    const parsedNumber = wordsToNumber(words);
 
-console.log("Parsed Number:", parsedNumber);
+    console.log("Parsed Number:", parsedNumber);
 
-Output: 1234567890 
+     Output: 1234567890 
 
 
 
