@@ -33,6 +33,7 @@ A lightweight and efficient Node.js module that converts numbers into English wo
      Output: "one billion two hundred thirty-four million five hundred sixty-seven thousand eight hundred ninety"
 
  **Convert words back into number**
+    const words = "one billion two hundred thirty-four million five hundred sixty-seven thousand eight hundred ninety";
  
     const parsedNumber = wordsToNumber(words);
 
